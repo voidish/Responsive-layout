@@ -26,6 +26,14 @@ ul {
     border: none;
     padding: 0 20px 0 20px;
 }
+ 
+.dark { 
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /*  Header  */
 header {
@@ -134,6 +142,33 @@ header a:hover {
 
 #boxes .box img {
     width: 90px; 
+}
+
+/*  Sidebar  */
+aside#sidebar { 
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/*  Main-col  */
+article#main-col { 
+    float: left;
+    width: 65%;
+}
+
+/*  Service  */
+ul#services  li { 
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote  textarea { 
+    width: 90%;
+    padding: 5px;
 }
 
 /* Footer */
