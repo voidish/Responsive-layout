@@ -90,13 +90,17 @@ header a:hover {
     min-height: 400px;
     /*  to go out of the css folder and going into the image we add ../img  
     0 is the x axis and with -400px we can move the picture up */
-    background: url('../img/branding_pic.jpg') no-repeat 0 -400px;
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.7)), url('../img/branding_pic.jpg') no-repeat 0 -400px;
     text-align: center;
     color: white;
+    opacity: .
 }
 
 #showcase h1 {
-    margin-top: 100px;
+    margin-top: 60px;
     font-size: 55px;
     margin-bottom: 10px;
 }
@@ -189,7 +193,9 @@ footer {
     header nav li,
     #newsletter h1,
     #newsletter form,
-    #boxes .box , article#main-col, aside#sidebar {
+    #boxes .box,
+    article#main-col,
+    aside#sidebar {
         float: none;
         text-align: center;
         width: 100%;
@@ -207,12 +213,16 @@ footer {
         margin-bottom: 30px;
     }
 
-    #newsletter button, .quote button {
+    #newsletter button,
+    .quote button {
         display: block;
         width: 100%;
+        margin-bottom: 20px;
     }
 
-    #newsletter form input[type="email"], .quote input, .quote textarea {
+    #newsletter form input[type="email"],
+    .quote input,
+    .quote textarea {
         width: 100%;
         margin-bottom: 5px;
     }
