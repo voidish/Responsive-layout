@@ -19,9 +19,9 @@
                   </div>
                   <nav>
                         <ul>
-                              <li><a href="index.html">Home</a></li>
+                              <li><a href="index.php">Home</a></li>
                               <li><a href="about.html">About</a></li>
-                              <li class="current"><a href="Services.html">Services</a></li>
+                              <li class="current"><a href="services.php">Services</a></li>
                         </ul>
                   </nav>
             </div>

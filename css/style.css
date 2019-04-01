@@ -96,7 +96,7 @@ header a:hover {
         rgba(0, 0, 0, 0.7)), url('../img/branding_pic.jpg') no-repeat 0 -400px;
     text-align: center;
     color: white;
-    opacity: .
+    /* opacity: . */
 }
 
 #showcase h1 {
@@ -126,7 +126,7 @@ header a:hover {
 }
 
 /* using CSS3 we can specifically set the input that has the type of email */
-#newsletter input[type="email"] {
+#newsletter input[type="email"], #login input {
     padding: 4px;
     height: 25px;
     width: 250px;
@@ -179,10 +179,47 @@ aside#sidebar .quote textarea {
 /* Footer */
 footer {
     padding: 20px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     color: white;
     background-color: #e8491d;
     text-align: center;
+}
+
+/*  Login  */
+#login {
+    height: 90vh;
+    background-image: url('../img/branding_pic.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+#loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4d2d1480;
+    padding: 30px;
+}
+
+#login h1 {
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#login input {
+    margin-bottom: 5px;
+}
+
+#login input[type="submit"] {
+    height: 38px !important;
 }
 
 /*  Media Queries  */

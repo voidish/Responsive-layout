@@ -4,8 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="desctiption" content="Affordable and proffessional web design">
-	<meta name="keywords" content="web, design, code, html, css, best">
+	<meta name="desctiption" content="Affordable cars for rent">
+	<meta name="keywords" content="cars, rent, affordable, easy">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Webdesign company | Welcome </title>
 	<link rel="stylesheet" href="css/style.css">
@@ -15,13 +15,14 @@
 	<header>
 		<div class="container">
 			<div id="branding">
-				<h1><span class="highlight">Modern</span> Web Design</h1>
+				<h1><span class="highlight">Affordable</span> Car Rental</h1>
 			</div>
 			<nav>
 				<ul>
-					<li class="current"><a href="index.html">Home</a></li>
+					<li class="current"><a href="index.php">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="Services.html">Services</a></li>
+					<li><a href="services.php">Services</a></li>
+					<li><a href="login.php">Login</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -29,7 +30,7 @@
 
 	<section id="showcase">
 		<div class="container">
-			<h1>Affordable proffessional Web Design</h1>
+			<h1>Affordable cars for rent</h1>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis unde numquam laborum expedita
 				labore illo in quia ratione maxime, tempora atque, repellendus officia quod velit esse explicabo?
 				Maxime, animi magni?</p>
@@ -73,7 +74,7 @@
 	</section>
 
 	<footer>
-		<p>Affordable Webdesign &copy; 2019</p>
+		<p>Affordable cars for rent &copy; 2019</p>
 	</footer>
 </body>
 
